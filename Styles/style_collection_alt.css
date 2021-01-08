@@ -1,0 +1,15 @@
+
+table{
+  border: #212121 dashed 3px;
+}
+thead{
+  background :  #212121;;
+  font-size: 128px;
+}
+tbody,h1{
+  font-size: 96px;
+  color: #212121;
+}
+th,td,tr {
+  border: #212121 solid 1px;
+}

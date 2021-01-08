@@ -1,0 +1,65 @@
+
+label, h1{
+    color: rgb(33, 33, 33);
+}
+
+#spy_q3,
+#pok_q3,
+#min_q3,
+#pok_q1_1,
+#nfs_q3_3,
+#nfs_q3_3,
+#nfs_q1,
+#min_q3_1,
+#min_q1,
+#min_q2,
+#spy_q1,
+#spy_q2,
+#nfs_q2,
+#pok_q2
+{
+  color: rgba(33, 33, 33, 0.8);
+
+}
+
+
+#spy_q3,
+#pok_q3,
+#min_q3,
+#pok_q1_1,
+#nfs_q3_3,
+#nfs_q3_3,
+#nfs_q1,
+#min_q3_1,
+#min_q1,
+#min_q2,
+#spy_q1,
+#spy_q2,
+#nfs_q2,
+#pok_q2,
+.submit,
+#submit_1 {
+    font-size: 130%;
+}
+
+
+.submit{
+    background-color: rgba(33, 33, 33, 0.8);
+
+}
+#submit_1{
+    background-color: rgb(33, 33, 33);
+
+}
+
+
+.l_name{
+    font-size: 160%;
+}
+
+.l2_name{
+    font-size: 145%;
+}
+input::placeholder{
+  color: rgba(33, 33, 33, 0.6);
+}

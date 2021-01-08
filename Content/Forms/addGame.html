@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+    <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+    <head>
+        <script type="application/javascript" src="../../Javascript/javascript.js" ></script>
+        <link rel="stylesheet" href="../../Styles/style_menu.css" media="screen"/>
+        <link rel="stylesheet" href="../../Styles/style_addgames.css" media="screen"/>
+        <link rel="alternate stylesheet" href="../../Styles/style_addgames_alt.css" media="screen" title="alternative"/>
+        <link rel="alternate stylesheet" href="../../Styles/style_menu_alt.css" media="screen" title="alternative"/>
+        <link href="https://fonts.googleapis.com/css?family=Tajawal|Work+Sans" rel="stylesheet" media="screen"/>
+        <title>Ajouter un jeu</title>
+    </head>
+    <body>
+
+      <header id="header">
+          <div>
+              <a href="../../site.html"><h1 class="name">LJDNE</h1></a>
+              <nav>
+                  <ul>
+                      <li> <a href="../Miscellaneous/collectionTab.html">Collections</a> </li>
+                      <li> <a href="../Miscellaneous/index.html">Site map</a> </li>
+                      <li> <a href="quizz.html">Quiz</a> </li>
+                      <li> <a href="#">Ajouter un jeu</a> </li>
+                  </ul>
+              </nav>
+          </div>
+      </header>
+    <form  id="addgame_form" action="http://10.16.21.1/~salayran/traitement.php" target="_blank" method="post">
+      <fieldset>
+        <h1>Ajouter votre jeu</h1>
+            <fieldset>
+
+                <label for = "title" > Titre </label>
+                <input id = "title" name = "title" placeholder="Votre Titre"/>
+
+                <br/><br/>
+                <label for="file"> Choose your file </label>
+                <input id="file" name="file" type="file" />
+
+                <br/><br/>
+
+                <label for = "desc" > Description </label>
+                <textarea id="desc" cols = "50" rows = "10"  maxlength="280"> </textarea>
+
+                <br/>
+            </fieldset>
+
+            <fieldset>
+
+                <label for = "editeur" > Editeur </label>
+                <input  id = "editeur" type="text" name = "editeur" placeholder="Votre Editeur" maxlength="50"/>
+
+                <br/>
+             </fieldset>
+
+            <fieldset>
+                <br/>
+
+                <label for = "dev" > Developpeurs </label>
+                <input id = "dev"  name = "dev" placeholder = "Votre developpeur" maxlength="50"/>
+
+                <br/>
+                </fieldset>
+            <fieldset>
+                <br/>
+
+                <label for = "pf" > Plate-forme </label>
+                <input id = "pf" name = "pf" placeholder = "Votre plate-forme" maxlength="50"/>
+
+                <br/>
+             </fieldset>
+            <fieldset>
+                <br/>
+
+                <label for = "kind" > Genre </label>
+                <input id = "kind"  name = "kind" placeholder = "Votre genre" maxlength="50"/>
+
+                <br/>
+             </fieldset>
+            <fieldset>
+                <br/>
+
+                <label for = "number" > Quelques chiffres </label>
+                <input id = "number"  name = "number" placeholder = "Votre chiffre" maxlength="50"/>
+
+                <br/>
+            </fieldset>
+            <input id="submit_1" type="button" name="check_all" onclick="upload_game()" value="Envoyer"/>
+        </form>
+    </body>
+</html>

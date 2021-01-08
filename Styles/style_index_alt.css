@@ -1,0 +1,43 @@
+
+#main-image {
+    height: 680px; /* Change la hauteur de l'élément  */
+    background: url("../Images/main_banner.png"); /* Met l'image main_banner en tant que background de l'élément */
+}
+
+
+#main-image h1
+{
+    padding: 120px 0 20px 0; /* Change la marge interne de l'élément */
+    font-size: 80px; /* Change la taille de la police */
+}
+#main-image p,footer a{
+    font-size: 40px; /* Change la taille de la police */
+}
+#main-image p,footer a:hover{
+  color: white;
+}
+#img{
+    position: absolute;
+    top: 75%;/* Change le paramètre de la position de l'élément */ /* Change la position de l'élément en fonction du haut (l'élément sera apres 65% en partant du haut) */
+}
+
+
+/*******        footer         ******/
+
+
+
+
+
+footer a{
+    width: 350px; /* Change la longueur de l'élément */
+    height: 85px; /* Change la hauteur de l'élément */
+    color: #212121; /* Change la couleur de l'élément */
+    margin-top:20px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+footer a:hover{
+    background-color: #212121; /* Change la couleur du background de l'élément */
+}

@@ -1,0 +1,244 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+h1,h2{
+    font-family: 'Tajawal', 'Cursive';
+}
+p{
+    font-family: 'Work Sans', 'Cursive';
+}
+
+
+/*
+
+*/
+/*******        title         ******/
+
+
+
+.title,.synopsis{
+  margin-top: 15px;
+  color: #B0BEC5;
+  position: absolute;
+  left: 30%;
+  right: 30%;
+}
+.title{
+    top: 15%;
+    text-align: center;
+}
+.synopsis{
+    top: 40%;
+}
+
+.title h1{
+    font-size: 70px;
+}
+.title h2{
+    font-size: 50px;
+}
+
+.synopsis h2{
+    font-size: 40px;
+    text-align: center;
+}
+.synopsis p{
+    font-size: 20px;
+}
+
+
+/*******        Desc / Edit         ******/
+
+#s1{
+    height: 205px;
+    width: auto;
+    /*background-color: chocolate;*/
+}
+
+#s1 .description, #s1 .edit{
+    display: inline-block;
+}
+
+.description{
+    height: auto;
+    width: auto;
+    /*background-color: aqua;*/
+    position: absolute;
+    left:10%;
+    margin-top: 20px;
+}
+.description h2, .edit h2{
+    margin-bottom: 10px;
+}
+
+.description h2, .description p,.edit h2, .edit ul li,#s2,#s3{
+  opacity: 0.8;
+}
+.description h2, .description p{
+    color: #C62828;
+}
+
+
+.edit{
+    margin-top: 20px;
+    height: auto;
+    width: 125px;
+    /*background-color:forestgreen;*/
+    position: absolute;
+    left: 80%;
+}
+
+
+
+.edit h2, .edit ul li{
+    color: #C62828;
+    list-style: none;
+    text-align: left;
+}
+
+
+
+.description h2, .edit h2{
+    font-size: 30px;
+}
+
+.edit ul li, .description p{
+    font-size: 20px;
+}
+
+.edit ul li{
+    margin-top: 3px;
+}
+
+
+
+
+
+/*******        Dev / PF         ******/
+
+
+#s2{
+    height: 230px;
+    width: auto;
+    background-color: #C62828;
+}
+
+#s2 .dev, #s2 .pf{
+    display: inline-block;
+}
+
+.dev{
+    height: auto;
+    width: auto;
+   /* background-color: aqua;*/
+    position: absolute;
+    left:10%;
+    margin-top: 20px;
+}
+.dev h2, .pf h2{
+    margin-bottom: 10px;
+}
+
+
+.dev h2, .dev ul li{
+    color: white;
+    list-style: none;
+}
+
+
+.pf{
+    margin-top: 20px;
+    height: auto;
+    width: 215px;
+  /*  background-color:forestgreen;*/
+    position: absolute;
+    left: 80%;
+}
+
+
+
+.pf h2, .pf ul li{
+    color: white;
+    list-style: none;
+    text-align: left;
+}
+
+
+
+.dev h2, .pf h2{
+    font-size: 30px;
+    text-align: left;
+}
+
+.pf ul li, .dev ul li{
+    font-size: 20px;
+    margin-top: 3px;
+}
+
+.pf ul li ul{
+    display: inline-block;
+    background-color: cyan;
+}
+
+/*******        genre / chiffres         ******/
+
+
+#s3{
+    height: 225px;
+    width: auto;
+    background-color: white;
+}
+
+#s3 .genre, #s3 .pf{
+    display: inline-block;
+}
+
+.genre{
+    height: auto;
+    width: auto;
+   /* background-color: aqua;*/
+    position: absolute;
+    left:10%;
+    margin-top: 20px;
+}
+.genre h2, .chiffres h2{
+    margin-bottom: 10px;
+}
+
+
+.genre h2, .genre ul li{
+    color: #C62828;
+    list-style: none;
+}
+
+
+.chiffres{
+    margin-top: 20px;
+    height: auto;
+    width: 300px;
+  /*  background-color:forestgreen;*/
+    position: absolute;
+    left: 80%;
+}
+
+
+
+.chiffres h2, .chiffres ul li{
+    color: #C62828;
+    list-style: none;
+    text-align: left;
+}
+
+
+
+.genre h2, .chiffres h2{
+    font-size: 30px;
+}
+
+.chiffres ul li, .genre ul li{
+    font-size: 20px;
+    margin-top: 3px;
+}

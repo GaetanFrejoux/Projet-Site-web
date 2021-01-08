@@ -1,0 +1,9 @@
+h1 {
+  font-size: 128px;
+}
+li,a,h1{
+    color : #212121;
+}
+li {
+  font-size: 48px;
+}

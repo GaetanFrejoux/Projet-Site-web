@@ -1,0 +1,97 @@
+*{
+    margin: 0px; /* Change la marge externe de l'élément */
+    padding: 0px; /* Change la marge interne de l'élément */
+}
+
+
+
+
+/*******        main         ******/
+
+
+
+
+.wrapper {
+    width: 940px; /* Change la longueur de l'élément */
+    margin: 0 auto; /* Change la marge externe de l'élément */
+    padding: 0 10px; /* Change la marge interne de l'élément */
+}
+
+
+
+#main-image {
+    height: 580px; /* Change la hauteur de l'élément  */
+    background: url("../Images/main_banner.png"); /* Met l'image main_banner en tant que background de l'élément */
+}
+
+
+#main-image h1
+{
+    font-weight: normal; /* Met le texte en normal */
+    font-family: 'Tajawal', sans-serif; /* Change la police de l'élément */
+    color: white; /* Change la couleur de l'élément */
+    text-transform: uppercase; /* Met l'élément en majuscule */
+    text-align: center; /* Met le texte au centre */
+    padding: 240px 0 40px 0; /* Change la marge interne de l'élément */
+    margin-bottom: 20px; /* Change la marge en bas de l'élément */
+    font-size: 55px; /* Change la taille de la police */
+}
+#main-image p{
+    font-weight: normal; /* Met le texte en normal */
+    font-family: 'Work Sans', sans-serif; /* Change la police de l'élément */
+    color: white; /* Change la couleur de l'élément */
+    text-align: center; /* Met le texte au centre */
+    padding: 0; /* Change la marge interne de l'élément */
+    margin-top: -20px; /* Change la marge externe en haut de l'élément */
+    font-size: 20px; /* Change la taille de la police */
+}
+
+#img{
+    position: absolute;
+    top: 65%;/* Change le paramètre de la position de l'élément */ /* Change la position de l'élément en fonction du haut (l'élément sera apres 65% en partant du haut) */
+    left: 45%; /* Change la position de l'élément en fonction de la droite (l'élément sera apres 50% en partant de la droite) */
+}
+
+.i{
+    width: 100px; /* Change la longueur de l'élément */
+
+}
+
+/*******        footer         ******/
+
+
+
+footer{
+    height: 110px;
+    width: 940px; /* Change la hauteur de l'élément */
+    text-align: center; /* Change la couleur du background de l'élément */
+}
+
+.wrapper_2{ /* Change la longueur de l'élément */
+    margin: 0 auto; /* Change la marge externe de l'élément */
+    padding-top: 2%; /* Change la marge interne en haut de l'élément */
+    position: absolute; /* Change la position de l'élément */
+    right: 25%; /* Change la position de l'élément en fonction de la droite (l'élément sera apres 15% en partant de la droite) */
+}
+
+
+footer a{
+    text-decoration: none; /* Enlève la décoration du texte de l'élément */
+    color: #C62828; /* Change la couleur de l'élément */
+    font-family: 'Work Sans', sans-serif; /* Change la police de l'élément */
+    display : inline-block; /* Change l'affichage de l'élément */
+    width: 230px; /* Change la longueur de l'élément */
+    height: 40px; /* Change la hauteur de l'élément */
+    text-align: center; /* Met le texte de l'élément au centre */
+    line-height: 40px; /* Change la hauteur d'une ligne de l'élément */
+    opacity: 0.8; /* Change l'opcité de l'élément */
+    margin-top:40px;
+    margin-left: 100px;
+    margin-right: 100px; /* Change la marge externe en haut de l'élément */
+    font-weight : bold ; /* Met le texte en gras */
+}
+
+footer a:hover{
+    color: white; /* Change la couleur de l'élément */
+    background-color: #C62828; /* Change la couleur du background de l'élément */
+}

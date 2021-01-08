@@ -1,0 +1,56 @@
+
+
+.title,.synopsis{
+  margin-top: 0px;
+  left: 5%;
+}
+.title,.synopsis{
+    width: 1778px;
+}
+.synopsis{
+    top: 35%;
+    text-align: center;
+}
+
+.title h1{
+    font-size: 80px;
+}
+
+.synopsis p,.edit ul li, .description p,.pf ul li, .dev ul li,.chiffres ul li, .genre ul li{
+    font-size: 30px;
+}
+
+/*******        Desc / Edit         ******/
+
+#s1,#s2,#s3{
+    height: 320px;
+
+}
+
+.description{
+    width: 800px;
+
+}
+.chiffres,.edit,.pf,.chiffres{
+    width: 380px;
+}
+
+.edit h2, .edit ul li,.description h2, .description p,.genre h2, .genre ul li,.chiffres h2, .chiffres ul li{
+    color: #212121;
+
+}
+
+
+
+.description h2, .edit h2,.dev h2, .pf h2,.genre h2, .chiffres h2{
+    font-size: 40px;
+}
+
+#s2{
+    background-color: #212121;
+
+}
+
+.dev{
+    height: 230px;
+}

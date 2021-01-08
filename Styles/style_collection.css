@@ -1,0 +1,31 @@
+thead tr th,tbody tr td{
+    font-family: 'Work Sans', 'Cursive';
+}
+thead tr th,tbody tr td,h1{
+    text-align: center;
+}
+h1 {
+  font-family: 'Tajawal', 'Arial';
+
+}
+
+table{
+  width: 80%;
+  height: 80%;
+  left: 10%;
+  position: absolute;
+  border: #C62828 dashed 3px;
+}
+thead{
+  background :  #C62828;;
+  font-size: 64px;
+  color: white;
+}
+tbody,h1{
+  font-size: 48px;
+  opacity: 0.8;
+  color: #C62828;
+}
+th,td,tr {
+  border: #C62828 solid 1px;
+}

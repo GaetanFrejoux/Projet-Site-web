@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE collections SYSTEM "collections.dtd">
+<collections>
+
+    <jeux id="Pokemon">
+
+        <images src="images/pikachu.png" alt="pikachu"/>
+
+        <titres class="title">
+            <t_title>Titres:</t_title>
+            <titre day="27" month="février" year="1996" id="PKV">Pokemon vert</titre>
+            <titre day="8" month="octobre" year="1999" id="PKRF">Pokemon Rouge et Feu</titre>
+            <titre day="21" month="novembre" year="2002" id="PKRS">Pokemon Rubis et Saphir</titre>
+            <titre day="28" month="septembre" year="2007" id="PKDP">Pokemon Diamant et Perle</titre>
+        </titres>
+
+        <editeurs class="edit">
+            <t_edit>Editeur:</t_edit>
+            <edit>Nintendo</edit>
+        </editeurs>
+
+        <developpeurs class="dev">
+            <t_dev>Developpeurs:</t_dev>
+            <dev>Game Freak</dev>
+        </developpeurs>
+
+        <plate-formes class="pf">
+            <t_pf>Plate-formes:</t_pf>
+            <plate-forme code="PKV">GameBoy</plate-forme>
+            <plate-forme code="PKRF">GameBoy</plate-forme>
+            <plate-forme code="PKRS">GameBoy Advance</plate-forme>
+            <plate-forme code="PKDP">Nintendo DS</plate-forme>
+        </plate-formes>
+
+        <genre class="genre">
+            <t_kind>Genre:</t_kind>
+            <kind>Jeu de rôle(RPG)</kind>
+        </genre>
+        <description>
+            <t_desc>Description:</t_desc>
+            <p>Chasser, capturer, explorer, progresser, combattre sera l'aventure qui vous attends</p>
+        </description>
+    </jeux>
+
+    <jeux id="Minecraft">
+
+        <images src="images/minecraft.png" alt="minecraft"/>
+
+        <titres class="title">
+            <t_title>Titres:</t_title>
+            <titre day="19" month="novembre" year="2011" id="Mnc">Minecraft</titre>
+        </titres>
+
+        <editeurs class="edit">
+            <t_edit>Editeur:</t_edit>
+            <edit>Mojang</edit>
+            <edit>Microsoft Studios</edit>
+            <edit>Sony Computer Entertainment</edit>
+        </editeurs>
+
+        <developpeurs class="dev">
+            <t_dev>Developpeurs:</t_dev>
+            <dev>Mojang</dev>
+            <dev>Microsoft Studios</dev>
+            <dev>4J Studios</dev>
+        </developpeurs>
+
+        <plate-formes class="pf">
+            <t_pf>Plate-formes:</t_pf>
+            <plate-forme code="Mnc">PC</plate-forme>
+            <plate-forme code="Mnc">Xbox one</plate-forme>
+            <plate-forme code="Mnc">PS4</plate-forme>
+            <plate-forme code="Mnc">Nintendo Switch</plate-forme>
+            <plate-forme code="Mnc">Android</plate-forme>
+            <plate-forme code="Mnc">iOS</plate-forme>
+        </plate-formes>
+
+        <genre class="genre">
+            <t_kind>Genre:</t_kind>
+            <kind>Aventure</kind>
+            <kind>Bac à sable</kind>
+        </genre>
+        <description>
+            <t_desc>Description:</t_desc>
+            <p>Un grande aventure t'attends dans un monde hostile. Tu devras survivre aux monstres la nuit, t'aventurer dans des grottes ou bien te mettre en mode créatif pour utiliser ton
+              imagination afin de créer des mondes merveillieux.
+            </p>
+        </description>
+    </jeux>
+
+    <jeux id="NeedForSpeed">
+
+        <images src="images/NeedForSpeed.png" alt="NeedForSpeed"/>
+
+        <titres class="title">
+            <t_title>Titres:</t_title>
+            <titre day="24" month="novembre" year="2005" id="MW">Need for Speed : Most Wanted</titre>
+            <titre day="22" month="mars" year="2006" id="C">Need for Speed Carbon</titre>
+            <titre day="20" month="novembre" year="2008" id="U">Need for Speed Undercover</titre>
+            <titre day="18" month="novembre" year="2010" id="HP">Need for Speed : Hot Pursuit</titre>
+        </titres>
+
+        <editeurs class="edit">
+            <t_edit>Editeur:</t_edit>
+            <edit>Electronic Arts</edit>
+
+        </editeurs>
+
+        <developpeurs class="dev">
+            <t_dev>Developpeurs:</t_dev>
+            <dev>Electronic Arts</dev>
+            <dev>EA Black Box</dev>
+            <dev>EA Canada</dev>
+            <dev>Criterion Games</dev>
+            <dev>Ghost Games</dev>
+            <dev>Firemonkeys Studios</dev>
+            <dev>EA Spearhead</dev>
+
+        </developpeurs>
+
+        <plate-formes class="pf">
+            <t_pf>Plate-formes:</t_pf>
+            <plate-forme code="MW">Playstation 2</plate-forme>
+            <plate-forme code="MW">Windows</plate-forme>
+            <plate-forme code="MW">Xbox</plate-forme>
+            <plate-forme code="MW">GC</plate-forme>
+            <plate-forme code="MW">Xbox 360</plate-forme>
+            <plate-forme code="MW">DS</plate-forme>
+            <plate-forme code="MW">GBA</plate-forme>
+            <plate-forme code="C">PSP</plate-forme>
+            <plate-forme code="C">DS</plate-forme>
+            <plate-forme code="C">GBA</plate-forme>
+            <plate-forme code="C">GC</plate-forme>
+            <plate-forme code="C">Windows</plate-forme>
+            <plate-forme code="C">Playstation 2</plate-forme>
+            <plate-forme code="C">Xbox 360</plate-forme>
+            <plate-forme code="C">Xbox </plate-forme>
+            <plate-forme code="C">Playstation 3</plate-forme>
+            <plate-forme code="C">Wii</plate-forme>
+            <plate-forme code="C">MAC OS X</plate-forme>
+            <plate-forme code="U">Windows</plate-forme>
+            <plate-forme code="U">Playstation 2</plate-forme>
+            <plate-forme code="U">Playstation 3</plate-forme>
+            <plate-forme code="U">Wii</plate-forme>
+            <plate-forme code="U">Xbox 360</plate-forme>
+            <plate-forme code="U">DS</plate-forme>
+            <plate-forme code="U">PSP</plate-forme>
+            <plate-forme code="U">iOS</plate-forme>
+            <plate-forme code="U">Windows Phone</plate-forme>
+            <plate-forme code="U">BlackBerry</plate-forme>
+            <plate-forme code="U">Smartphone</plate-forme>
+            <plate-forme code="HP">Playstation 3</plate-forme>
+            <plate-forme code="HP">Wii</plate-forme>
+            <plate-forme code="HP">Windows</plate-forme>
+            <plate-forme code="HP">Xbox 360</plate-forme>
+            <plate-forme code="HP">iOS</plate-forme>
+            <plate-forme code="HP">Windows Phone</plate-forme>
+            <plate-forme code="HP">Android</plate-forme>
+
+        </plate-formes>
+        <genre class="genre">
+            <t_kind>Genre:</t_kind>
+            <kind>Course</kind>
+        </genre>
+        <description>
+            <t_desc>Description:</t_desc>
+            <p>Un jeu de course arcade où vous vous méler à des courses de rue et de circuit !
+            Customisé votre véhicule comme bon vous semble !</p>
+        </description>
+    </jeux>
+    <jeux id="Spyro">
+
+        <images src="images/Spyro.png" alt="Spyro"/>
+
+        <titres class="title">
+            <t_title>Titres:</t_title>
+            <titre day="10" month="septembre" year="1998" id="STD">Spyro the Dragon</titre>
+            <titre day="5" month="novembre" year="1999" id="SGTG">Spyro 2 : Gateway to Glimmer</titre>
+            <titre day="10" month="novembre" year="2000" id="SYOTD">Spyro : Year of the Dragon</titre>
+            <titre day="29" month="novembre" year="2002" id="SETD">Spyro : Enter the Dragonfly</titre>
+        </titres>
+
+        <editeurs class="edit">
+            <t_edit>Editeur:</t_edit>
+            <edit>Universal Interactive</edit>
+            <edit>Sierra Entertainment</edit>
+        </editeurs>
+
+        <developpeurs class="dev">
+            <t_dev>Developpeurs:</t_dev>
+            <dev>Insomniac Games</dev>
+            <dev>Digital Eclipse</dev>
+            <dev>Vicarious Visions</dev>
+            <dev>Eurocom</dev>
+            <dev>Amaze Entertainment</dev>
+            <dev>Krome Studios</dev>
+            <dev>Griptonite Games</dev>
+            <dev>Etranges Libellules</dev>
+            <dev>Tantalus Media</dev>
+            <dev>Toys for Bob</dev>
+        </developpeurs>
+
+        <plate-formes class="pf">
+            <t_pf>Plate-formes:</t_pf>
+            <plate-forme code="STD">Playstation 1</plate-forme>
+            <plate-forme code="SGTG">Playstation 1</plate-forme>
+            <plate-forme code="SYOTD">Playstation 1</plate-forme>
+            <plate-forme code="SETD">Playstation 2</plate-forme>
+        </plate-formes>
+
+        <genre class="genre">
+            <t_kind>Genre:</t_kind>
+            <kind>Plates-formes</kind>
+            <kind>Action</kind>
+        </genre>
+        <description>
+            <t_desc>Description:</t_desc>
+            <p>Prener le contrôle d'un jeune dragon nommé Spyro et sauver vos amis !</p>
+        </description>
+    </jeux>
+</collections>

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+    <head>
+        <script type="application/javascript" src="../../Javascript/javascript.js" ></script>
+        <link rel="stylesheet" href="../../Styles/style_menu.css" media="screen"/>
+        <link rel="stylesheet" href="../../Styles/style_quizz.css" media="screen"/>
+        <link rel="alternate stylesheet" href="../../Styles/style_quizz_alt.css" media="screen" title="alternative"/>
+        <link rel="alternate stylesheet" href="../../Styles/style_menu_alt.css" media="screen" title="alternative"/>
+        <link href="https://fonts.googleapis.com/css?family=Tajawal|Work+Sans" rel="stylesheet" media="screen"/>
+        <title>Quizz</title>
+    </head>
+    <body>
+        <header id="header">
+            <div>
+                <a href="../../site.html"><h1 class="name">LJDNE</h1></a>
+                <nav>
+                    <ul>
+                        <li> <a href="../Miscellaneous/collectionTab.html">Collections</a> </li>
+                        <li> <a href="../Miscellaneous/index.html">Site map</a> </li>
+                        <li> <a href="#">Quiz</a> </li>
+                        <li> <a href="addGame.html">Ajouter un jeu</a> </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+
+        <form  id="formulaire_1" action="http://10.16.21.1/~salayran/traitement.php" target="_blank" method="post">
+          <fieldset>
+            <h1>Quizz</h1>
+            <label class="l_name" for="minecraft_id">Minecraft</label>
+            <fieldset id="minecraft_id">
+                <label class="l2_name" for="min_q1">En quelle année a été créé Minecraft ?</label>
+                <div id="min_q1">
+                    <input id="min_q1_1" type="radio" name="En quelle année a été créé Minecraft ?" value="2009"/> 2009
+                    <br/>
+                    <input id="min_q1_2" type="radio" name="En quelle année a été créé Minecraft ?" value="2012"/> 2012
+                    <br/>
+                    <input id="min_q1_3" type="radio" name="En quelle année a été créé Minecraft ?" value="2011"/> 2011
+                    <br/>
+                    <input id="min_q1_4" type="radio" name="En quelle année a été créé Minecraft ?" value="2007"/> 2007
+                </div>
+                <br/>
+                <label class="l2_name" for="min_q2">Quel est/sont les genres du jeu ? <br/>Cochez la/les bonnes réponses :</label>
+                <div id="min_q2">
+                    <input id="min_q2_1" type = "checkbox" name="Quel est/sont les genres du jeu ? " value = "Puzzle"/> Puzzle
+                    <br/>
+                    <input id="min_q2_2" type = "checkbox" name="Quel est/sont les genres du jeu ? " value = "Aventure"/> Aventure
+                    <br/>
+                    <input id="min_q2_3" type = "checkbox" name="Quel est/sont les genres du jeu ? " value = "Plateforme"/> Plateforme
+                    <br/>
+                    <input id="min_q2_4" type = "checkbox" name="Quel est/sont les genres du jeu ? " value = "Voiture"/> Voiture
+                </div>
+                <br/>
+                <label class="l2_name" for = "min_q3_1" >Combien y a t-il de connexion par heure sur le jeu en moyenne ?</label>
+                <input id = "min_q3_1" name = "Combien y a t-il de connexion par heure sur le jeu en moyenne ?" placeholder ="Nombre" value=""/>
+                <br/>
+                <button class="submit" type="button" name="check" onclick="check_form_complete_min()">Vérifier</button>
+            </fieldset>
+
+
+
+
+            <label class="l_name" for="spyro_id">Spyro</label>
+            <fieldset id="spyro_id">
+
+                <label class="l2_name" for="spy_q1">Cochez la/les bonnes réponses :</label>
+                <div id="spy_q1">
+                    <input id="spy_q1_1" type = "checkbox"  name="Les vrais informations :" value = "Interdit de vente en Pologne"/> Interdit de vente en Pologne
+                    <br/>
+                    <input  id="spy_q1_2" type = "checkbox" name="Les vrais informations :" value = "16 jeux sortis"/> 16 jeux sortis
+                    <br/>
+                    <input  id="spy_q1_3" type = "checkbox" name="Les vrais informations :" value = "60 millions d'exemplaires de jeux vendus à travers le monde"/> 60 millions d'exemplaires de jeux vendus à travers le monde
+                    <br/>
+                    <input  id="spy_q1_4" type = "checkbox" name="Les vrais informations :" value = "Jamais développé sur PS4"/> Jamais développé sur PS4
+                </div>
+                <br/>
+                <label class="l2_name" for="spy_q2">Qui contrôlons nous dans le jeu ?</label>
+                <div id="spy_q2">
+                    <input  id="spy_q2_1" type="radio" name="Qui contrôlons nous dans le jeu ?" value="Un cheval"/> Un cheval
+                    <br/>
+                    <input  id="spy_q2_2" type="radio" name="Qui contrôlons nous dans le jeu ?" value="Un oiseau"/> Un oiseau
+                    <br/>
+                    <input  id="spy_q2_3" type="radio" name="Qui contrôlons nous dans le jeu ?" value="Un dragon"/> Un dragon
+                    <br/>
+                    <input  id="spy_q2_4" type="radio" name="Qui contrôlons nous dans le jeu ?" value="Un zèbre"/> Un zèbre
+                </div>
+                <br/>
+                <label class="l2_name" for = "spy_q3" > Sur quelle platerforme Spyro a été publié ? </label>
+                <input id = "spy_q3" name = "Sur quelle platerforme Spyro a été publié ?" placeholder = "plateforme"/>
+                <br/>
+                <button class="submit"  type="button" name="check2" onclick="check_form_complete_spy()">Vérifier</button>
+            </fieldset>
+
+
+
+
+            <label class="l_name" for="nfs_id">Need for Speed Carbon</label>
+            <fieldset id="nfs_id">
+                <label for = "nfs_q1" > Qui a développé Need for speed carbon ? </label>
+                <input id = "nfs_q1" name = "Qui a développé Need for speed carbon ? " placeholder = "Développeur"/>
+                <br/>
+                <label class="l2_name" for="nfs_q2">Que contrôlons nous dans le jeu ?</label>
+                <div id="nfs_q2">
+                    <input id="nfs_q2_1" type="radio" name="Que contrôlons nous dans le jeu ?" value="Des voitures"/> Des voitures
+                    <br/>
+                    <input id="nfs_q2_2"  type="radio" name="Que contrôlons nous dans le jeu ?" value="Des hélicoptères"/> Des hélicoptères
+                    <br/>
+                    <input id="nfs_q2_3"  type="radio" name="Que contrôlons nous dans le jeu ?" value="Des camions"/> Des camions
+                    <br/>
+                    <input id="nfs_q2_4"  type="radio" name="Que contrôlons nous dans le jeu ?" value="Des Carbons"/> Des Carbons
+                </div>
+                <br/>
+                <label class="l2_name" for="nfs_q3">Need for speed est un ?</label>
+                <div id="nfs_q3">
+                    <select id="nfs_q3_3" name = "Need for speed est un " >
+                        <option value="Jeu de course" > Jeu de course</option>
+                        <option value="Jeu de plateforme"> Jeu de plateforme</option>
+                        <option value="Jeu de reflexion"> Jeu de reflexion</option>
+                        <option value="Jeu d'action"> Jeu d'action</option>
+                    </select>
+                </div>
+                <button class="submit"  type="button" name="check3" onclick="check_form_complete_nfs()">Vérifier</button>
+            </fieldset>
+
+
+
+            <label class="l_name" for="pokemon_id">Pokemon</label>
+            <fieldset id="pokemon_id">
+                <label class="l2_name" for="pok_q1">Comment s'appelle les ennemis dans Pokemon Diamant et Perle ?</label>
+                <div id="pok_q1">
+                <select id="pok_q1_1" name = "ennemi" >
+                    <option value="Team Lunaire"> Team Lunaire </option>
+                    <option value="Team Cacahuète"> Team Cacahuète </option>
+                    <option value="Team Galaxy"> Team Galaxy </option>
+                    <option value="Team Méchant"> Team Méchant </option>
+                </select>
+                </div>
+                <br/>
+                <label class="l2_name" for="pok_q2">Quelle est le genre de Pokemon Diamant et Perle ?</label>
+                <div id="pok_q2">
+                    <input id="pok_q2_1"  type="radio" name="Genre du jeu :" value="MMORPG"/> MMORPG
+                    <br/>
+                    <input id="pok_q2_2"  type="radio" name="Genre du jeu :" value="FPS"/> FPS
+                    <br/>
+                    <input id="pok_q2_3"  type="radio" name="Genre du jeu :" value="MOBA"/> MOBA
+                    <br/>
+                    <input id="pok_q2_4"  type="radio" name="Genre du jeu :" value="RPG"/> RPG
+                </div>
+                <br/>
+                <label class="l2_name" for = "pok_q3" > Combien y eu de vente en millions ?</label>
+                <input id = "pok_q3" name = "nombre de vente" placeholder = "Nombre de vente ( en millions )"/>
+                <br/>
+                <button class="submit"  type="button" name="check4" onclick="check_form_complete_pok()">Vérifier</button>
+              </fieldset>
+              <br/><br/>
+            </fieldset>
+            <input id="submit_1" type="button" name="check_all" onclick="submit_all()" value="Envoyer"/>
+        </form>
+    </body>
+</html>

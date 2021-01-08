@@ -1,0 +1,66 @@
+<!ELEMENT collections (collection*)>
+<!ATTLIST collections id ID #IMPLIED>
+
+<!ELEMENT jeux (image, titres, editeurs, developpeurs, plate-formes, genre, description?)>
+<!ATTLIST jeux id ID #IMPLIED>
+
+<!ELEMENT image EMPTY>
+<!ATTLIST image src CDATA #REQUIRED
+                alt CDATA #REQUIRED>
+
+<!ELEMENT titres (t_title, titres+)>
+<!ATTLIST titres class CDATA #REQUIRED>
+
+<!ELEMENT t_tilte (#PCDATA)>
+<!ATTLIST t_tilte id ID #IMPLIED>
+
+<!ELEMENT titre (#PCDATA)>
+<!ATTLIST titre day CDATA #REQUIRED
+                month CDATA #REQUIRED
+                year CDATA #REQUIRED
+                id ID #REQUIRED>
+
+
+<!ELEMENT editeurs (t_edit, edit+)>
+<!ATTLIST editeurs class CDATA #REQUIRED>
+
+<!ELEMENT t_edit (#PCDATA)>
+<!ATTLIST t_edit id ID #IMPLIED>
+
+<!ELEMENT edit (#PCDATA)>
+<!ATTLIST edit id ID #IMPLIED>
+
+<!ELEMENT developpeurs (t_dev, dev+)>
+<!ATTLIST developpeurs class CDATA #REQUIRED>
+
+<!ELEMENT t_dev (#PCDATA)>
+<!ATTLIST t_dev id ID #IMPLIED>
+
+<!ELEMENT plate-formes (plate-forme+)>
+<!ATTLIST t_dev id ID #IMPLIED>
+
+<!ELEMENT t_pf (#PCDATA)>
+<!ATTLIST t_pf id ID #IMPLIED>
+
+<!ELEMENT plate-forme (#PCDATA)>
+<!ATTLIST plate-forme code IDREF #IMPLIED
+                        pf CDATA #REQUIRED>
+
+
+<!ELEMENT genre (t_kind, kind+)>
+<!ATTLIST genre class CDATA #REQUIRED>
+
+<!ELEMENT t_kind (#PCDATA)>
+<!ATTLIST t_kind id ID #IMPLIED>
+
+<!ELEMENT description (t_dec, p*)>
+<!ATTLIST description class CDATA #REQUIRED>
+
+<!ELEMENT t_desc (#PCDATA)>
+<!ATTLIST t_desc id ID #IMPLIED>
+
+<!ELEMENT p (#PCDATA | annee>
+<!ATTLIST p id ID #IMPLIED>
+
+<!ELEMENT annee (#PCDATA)>
+<!ATTLIST annee id ID #IMPLIED>

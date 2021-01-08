@@ -1,0 +1,61 @@
+/*******        Nav         ******/
+
+h1, a{
+  font-family: 'Tajawal', Arial; /* Change la police */
+}
+
+header {
+    height : 100px;
+    width : auto ;  /* Change la taille */  /* Affiche le background sur la totalité de la page */ /* Change l'opacité  */
+}
+ /* Change la taille */ /* Donne une marge automatique */ /* Donne un la marge entre l'élément interne et l'élément l'englobant*/
+.name{
+    float: left; /* met l'élément à gauche */
+    margin-top : 32px ; /* Change la marge en haut de l'élément */
+    font-size : 45px ; /* Change la taille du texte */
+    color : #C62828 ;
+    opacity: 0.8;
+    margin-right: -20px;
+    position: absolute;
+    left: 10px; /* Change la couleur */
+}
+.name,header nav ul li a,header nav ul li a:hover{
+  opacity: 0.8;
+}
+
+header nav {
+    float : right ; /* met l'élément à droite */
+    margin-top : 40px ; /* Change la marge en haut de l'élément */
+}
+
+header nav ul {
+    list-style : none ; /* Enlève les points des élément des listes */
+}
+
+header nav ul li {
+    float : left ; /* Met l'élément à gauche */
+    display : inline-block ; /* Change le mode d'affichage de l'élément */
+    width: 185px; /* Change la longueur de l'élément */
+    height: 40px; /* Change la hauteur de l'élément */
+    background-color: white; /* Change la couleur du background de l'élément */
+    line-height: 40px; /* Change la hauteur des lignes */
+    text-align: center; /* Met le texte au centre */
+    font-size: 15px; /* Change la taille du texte */
+    margin-right: 10px; /* Change la marge à droite de l'élément */
+}
+
+header nav ul li a {
+    font-weight : bold ; /* Met la police en gras */
+    display: block; /* Change le mode d'affichage de l'élément */
+    text-transform : uppercase ; /* Met le texte en majuscule */
+    margin-right : 40px ; /* Change la marge à droite de l'élément */
+    text-decoration : none ; /* Enlève la décoration du texte */
+    color : #C62828 ;
+    font-weight: 10; /* change la taille de la police */
+}
+
+
+header nav ul li a:hover {
+    color : white; /* Change la couleur de l'élément */
+    background-color: #C62828;
+}

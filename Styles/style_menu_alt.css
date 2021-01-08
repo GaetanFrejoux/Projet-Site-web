@@ -1,0 +1,24 @@
+/*******        Nav         ******/
+
+.name{
+      margin-top : 0px ; /* Change la marge en haut de l'élément */
+    font-size : 100px ; /* Change la taille du texte */
+}
+.name,header nav ul li a {
+  color : #212121 ;
+}
+header {
+    height : 120px;
+}
+header nav ul li {
+    width: 360px; /* Change la longueur de l'élément */
+    height: 50px; /* Change la hauteur de l'élément */
+    line-height: 50px; /* Change la hauteur des lignes */
+    font-size: 40px; /* Change la taille du texte */
+}
+header nav ul li,header nav ul li a {
+    margin-right : 15px ; /* Change la marge à droite de l'élément */
+}
+header nav ul li a:hover {
+    background-color: #212121;
+}

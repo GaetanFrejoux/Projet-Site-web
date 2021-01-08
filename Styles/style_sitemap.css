@@ -1,0 +1,25 @@
+h1 {
+  font-family: 'Tajawal', 'Arial';
+  text-align: center;
+  font-size: 64px;
+}
+li,a,h1{
+    color : #C62828;
+    opacity: 0.8;
+}
+li {
+  font-size: 24px;
+}
+ul{
+  list-style: none;
+}
+
+ul li, ul li ul li a  {
+    font-family: 'Work Sans', 'Cursive';
+}
+
+button {
+  background-color: grey;
+  opacity: 0.6;
+  color : white;
+}
